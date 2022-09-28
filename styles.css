@@ -1,0 +1,149 @@
+#header{
+  position:fixed;
+  top:0;
+  background-color:honeydew;
+  border-radius:1px 1px 50px 50px;
+  width:98%;
+}
+#nav-bar{
+  display:flex;
+  float:right;
+  
+}
+#nav-bar a{display:block;
+padding: 14px 16px;
+text-decoration: none;
+font-weight:bold;
+color:black;
+text-align: center;
+margin:2px 10px;
+background:palegreen;
+border-radius:60px;
+font-family:Tahoma ,sans;
+font-size:14px}
+#nav-bar a:hover {
+  background-color:mediumspringgreen;
+}
+#header-img{
+  float:left;
+  margin:auto;
+}
+img{max-height:50px;
+margin:8px;}
+main{
+  margin-top:90px
+}
+
+.sec1{
+margin:auto;
+max-width:70%;
+text-align:center;
+}
+#email{font-size:15px;
+}
+#submit{
+  margin-left:25px;
+  background-color:lightgray;
+  border:none;
+  font-size:14px;
+  font-family:verdana;
+  padding:4px;
+  border-radius:6px;
+}
+#submit:hover{
+  background-color:lime;
+  color:white;
+}
+.sec2 h2{
+  width:30%;
+  text-shadow:5px 4px 6px thistle;
+ 
+}
+
+#pm ,#fs ,#qa {
+  display:flex;
+  margin-bottom:15px;                         background-color:lavenderblush;
+  border-radius:10px;
+}
+p{font-family:tahoma;}
+iframe{
+  margin:auto;
+  display:block;
+  margin-top:30px;
+  margin-bottom:30px;
+}
+#Pricing{
+  display:flex;
+  background-color:lavenderblush;
+  max-width:100%;
+  padding:5px;
+}
+.product{
+  background-color:ivory;
+  display:grid;
+  padding:10px;
+  margin:5px auto;
+  position:relative;
+  border-radius:10px;
+}
+ol{font-size:17px;
+font-family:papyrus, tahoma ;
+font-weight:bold;
+list-style:none;
+margin-bottom:10px}
+.level{
+  text-align:center;
+  font-size:20px;
+  font-family:Verdana;
+  font-weight:bold;
+  color:crimson;
+}
+.product h2{
+  text-align:center;
+  color:gold;
+}
+.btn{
+  background-color:lightgray;
+  border-color:transparent;
+  font-family:calibri;
+  letter-spacing:1;
+  border-radius:4px;
+  margin:auto;
+  width:100%
+}
+.btn:hover{
+  background-color:lime;
+  color:snow;
+  border-radius:15px;
+  width:80%
+}
+
+footer p{
+  text-align:center;
+  font-size:12px;
+  margin-top:30px;
+  padding:4px;
+  background-color:coral;
+  border-radius:50px 50px 1px 1px;
+}
+footer a{
+  text-decoration:none;
+  background-color:linen;
+  color:mediumblue;
+  padding:4px;
+  border-radius:5px;
+  margin:5px 10px;
+}
+@media screen and (max-width: 600px) {
+  #header-img {
+    display: none;
+  }
+  #nav-bar{
+    display:inline;
+    float:none;
+  }
+  #nav-bar a{
+    height:1px;
+    padding:13px;
+  }
+}
